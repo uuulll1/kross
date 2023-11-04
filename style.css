@@ -1,0 +1,163 @@
+@import url(nullstyle.css);
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+.header {
+    /* width: 1440px; */
+    height: 110px;
+    border-bottom: 1px #A1A6B4 solid;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1100px;
+    height: 100%;
+}
+
+
+.header a {
+    width: 212.34px;
+    height: 63.24px;
+    flex-shrink: 0;
+}
+
+.header ul {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header ul li a {
+    font-family: 'Anonymous Pro', monospace;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main {
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.content {
+    margin: 0 auto;
+
+}
+
+
+.content__title {
+    display: flex;
+    padding-top: 25px;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    width: 767px;
+
+}
+
+.card__info {
+    display: flex;
+    width: 371px;
+    height: 140px;
+    padding: 32px 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 0px 12px 12px;
+    background: var(--white, #FFF);
+}
+
+.card__info2 {
+    display: flex;
+    width: 371px;
+    height: 166px;
+    padding: 32px 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 0px 12px 12px;
+    background: var(--white, #FFF);
+}
+
+.stroc {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+.stroc:last-child {
+    padding-bottom: 25px;
+}
+
+.card__text__card__text_title {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card__text__card__text {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.footer {
+    background: #121723;
+    height: 142px;
+}
+
+.footerlink {
+    max-width: 1160px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px #A1A6B4 solid;
+}
+
+.footerlink ul {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.footerlink ul li a {
+    color: #FFF;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.foot {
+    margin-top: 18px;
+    color: var(--text_gray, #A1A6B4);
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+
+}
